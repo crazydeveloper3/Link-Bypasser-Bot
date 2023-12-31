@@ -110,11 +110,11 @@ def loopthread(message,otherss=False):
 # start command
 @app.on_message(filters.command(["start"]))
 def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
-    app.send_message(message.chat.id, f"__👋ʜɪ **{message.from_user.mention}**,ɪ ᴀᴍ ʟɪɴᴋ ʙʏᴘᴀꜱꜱᴇʀ ʙᴏᴛ, ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ʟɪɴᴋꜱ ᴀɴᴅ ɪ ᴡɪʟʟ ʏᴏᴜ ɢᴇᴛ ʏᴏᴜ ʀᴇꜱᴜʟᴛꜱ.\n\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href=https://t.me/professorr_x>Professorr</a>",
+    app.send_message(message.chat.id, f"__👋ʜɪ **{message.from_user.mention}**,ɪ ᴀᴍ ʟɪɴᴋ ʙʏᴘᴀꜱꜱᴇʀ ʙᴏᴛ, ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ʟɪɴᴋꜱ ᴀɴᴅ ɪ ᴡɪʟʟ ʏᴏᴜ ɢᴇᴛ ʏᴏᴜ ʀᴇꜱᴜʟᴛꜱ.\n\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @professorr_x",
     reply_markup=InlineKeyboardMarkup([
         [ InlineKeyboardButton("ᴏᴡɴᴇʀ😈", url="https://t.me/professorr_x"),
         InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ😥", url="https://telegra.ph/Buy-Me-Coffee-12-25")
-        ],[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ‼", url="https://telegra.ph/Buy-Me-Coffee-12-25"),
+        ],[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ‼", url="https://t.me/+GlWjH2Zbp-w5YjVl"),
          InlineKeyboardButton("ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ👻", url="https://t.me/terabox_movie_request_group")]]), 
         reply_to_message_id=message.id)
 
